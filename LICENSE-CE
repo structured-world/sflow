@@ -1,0 +1,52 @@
+SFLOW COMMUNITY EDITION (CE) END-USER LICENSE AGREEMENT
+========================================================
+
+Effective date: 2026-05-22
+
+1. GRANT OF USE
+   Structured World Foundation ("Licensor") grants you a non-exclusive,
+   non-transferable, royalty-free license to download, install, and run the
+   SFLOW CE binary distribution ("Software") on any number of machines,
+   subject to the following terms.
+
+2. USAGE LIMIT
+   The Software is permitted to process up to ten thousand (10 000) state
+   changes per calendar month per Software instance, where "state change"
+   is defined in the SFLOW documentation. Exceeding this limit requires an
+   Enterprise Edition (EE) license; see <https://structured.flow/pricing>.
+
+3. EMBEDDING
+   When the Software's engine is statically or dynamically linked into a
+   product distributed by Licensor or its partners (CoordiNode, SID, SCOM,
+   and similar structured.world products), the state-change metering is
+   disabled and Section 2 does not apply.
+
+4. REVERSE ENGINEERING
+   You may not decompile, disassemble, or otherwise attempt to extract
+   the source code of the Software. Integrity-enforcement mechanisms in
+   the binary may not be bypassed, tampered with, or removed.
+
+5. REDISTRIBUTION
+   You may redistribute the unmodified Software binary, provided this
+   Agreement accompanies it and no fee is charged for the redistribution
+   beyond reasonable hosting costs.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+   NON-INFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY ARISING OUT OF OR IN CONNECTION WITH THE USE OF THE
+   SOFTWARE.
+
+8. EE UPGRADE
+   For volumes exceeding Section 2, clustering, marketplace, and EE
+   features, contact <licensing@structured.flow> for commercial terms.
+
+9. RELATED OPEN-SOURCE COMPONENTS
+   The public embedding contract `sflow-api`
+   (<https://github.com/structured-world/sflow-api>) is licensed under MIT
+   OR Apache-2.0 and is NOT subject to this Agreement.

@@ -1,0 +1,17 @@
+[book]
+title = "SFLOW Documentation"
+description = "SFLOW — Rust-native workflow engine. W3C Statecharts."
+authors = ["Structured World Foundation"]
+language = "en"
+src = "src"
+
+[output.html]
+default-theme = "navy"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/structured-world/sflow"
+edit-url-template = "https://github.com/structured-world/sflow/edit/main/book/{path}"
+site-url = "/sflow/"
+
+[output.html.fold]
+enable = true
+level = 1
